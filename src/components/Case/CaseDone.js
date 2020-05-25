@@ -17,7 +17,7 @@ const CaseDone = () => {
 
     useEffect(() => {
         getCaseList();
-    }, []);
+    }, [caseList]);
 
     const resolveCar = async (id) => {
         const response = await fetch(
